@@ -1,0 +1,3 @@
+# Just ignore Node stuff completely for now
+node_modules/
+package-lock.json
