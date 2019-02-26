@@ -42,3 +42,22 @@ small.
 In other words, when stacked as a single column the links are now displayed
 with smaller images with the text aside, instead of (bigger) images and the text
 below.
+
+
+## Responsive navigation
+
+The navbar comes from Bootstrap templates, with minor style customization. The
+dropdown menu for XS devices requires BS scripts to be added : `jquery` and
+`bootstrap.js`.
+
+We added a feature to shrink the navbar when the user scrolls down. The scroll
+detection is done by an external script that toggles a CSS class on our element:
+`cbp-af-header-shrink`. Those JS have to be included:
+- `cbpAnimatedHeader.min.js`
+- `classie.js` (dependency - helper to manipulate CSS classes)
+
+_Those scripts are to be found [here](https://github.com/codrops/AnimatedHeader)
+or in the NPM module:_ `codrops-animated-header`.
+
+Additionally to the course's content, I did some more styling to properly handle
+rendering in all tiers, as the special MD format has been omitted by the author.
