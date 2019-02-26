@@ -3,6 +3,12 @@ body {
   padding-top: 80px; /* navbar place */
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    padding-top: 130px;
+  }
+}
+
 .navbar {
   margin-bottom: 0;
   padding: 30px 15px;
@@ -52,7 +58,7 @@ aside {
 
 .sports-icon-list {
   background-color: #333;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .sports-icon-list a {
@@ -70,6 +76,9 @@ aside {
 }
 
 .sports-list-top div {
+  margin-top: 30px;
+  padding-top: 20px;
+
   margin-left: auto;
   margin-right: auto;
   text-align: center;
